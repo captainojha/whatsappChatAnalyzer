@@ -1,0 +1,17 @@
+open terminal
+cd
+For example if whatsapp_analyser is saved on desktop cd Desktop/whatsapp_analyser
+
+To create a virtual environment named whatsapp:
+python -m venv whatsapp
+
+to activate the virtual enviroment, type in:
+source whatsapp/bin/activate
+
+pip3 install -r requirements.txt
+
+python main.py android data/chat.txt
+
+
+
+
